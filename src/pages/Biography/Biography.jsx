@@ -1,5 +1,6 @@
 import { BiographyStyled } from './Biography.styled';
 
-export const Biography = () => {
+const Biography = () => {
   return <BiographyStyled>Biography</BiographyStyled>;
 };
+export default Biography;

@@ -1,5 +1,6 @@
 import { OrderBaitStyled } from './OrderBait.styled';
 
-export const OrderBait = () => {
+const OrderBait = () => {
   return <OrderBaitStyled>OrderBait</OrderBaitStyled>;
 };
+export default OrderBait;

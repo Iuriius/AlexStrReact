@@ -1,5 +1,6 @@
 import { FishTogetherStyled } from './FishTogether.styled';
 
-export const FishTogether = () => {
+const FishTogether = () => {
   return <FishTogetherStyled>FishTogether</FishTogetherStyled>;
 };
+export default FishTogether;

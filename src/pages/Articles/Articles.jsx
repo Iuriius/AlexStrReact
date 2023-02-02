@@ -1,5 +1,6 @@
 import { ArticlesStyled } from './Articles.styled';
 
-export const Articles = () => {
+const Articles = () => {
   return <ArticlesStyled>Articles</ArticlesStyled>;
 };
+export default Articles;

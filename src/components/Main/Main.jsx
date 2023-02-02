@@ -1,5 +1,6 @@
 import { MainStyled } from './Main.styled';
 
-export const Main = () => {
+const Main = () => {
   return <MainStyled>THIS IS A MAIN CONTENT</MainStyled>;
 };
+export default Main;

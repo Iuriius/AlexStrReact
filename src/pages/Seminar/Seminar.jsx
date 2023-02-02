@@ -1,5 +1,6 @@
 import { SeminarStyled } from './Seminar.styled';
 
-export const Seminar = () => {
+const Seminar = () => {
   return <SeminarStyled>SEMINAR</SeminarStyled>;
 };
+export default Seminar;

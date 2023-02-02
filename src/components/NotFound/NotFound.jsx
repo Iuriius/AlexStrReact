@@ -1,5 +1,6 @@
 import { NotFoundStyled } from './NotFound.styled';
 
-export const NotFound = () => {
+const NotFound = () => {
   return <NotFoundStyled>NOT FOUND</NotFoundStyled>;
 };
+export default NotFound;

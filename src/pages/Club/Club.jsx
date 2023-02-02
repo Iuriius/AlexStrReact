@@ -1,5 +1,6 @@
 import { ClubStyled } from './Club.styled';
 
-export const Club = () => {
+const Club = () => {
   return <ClubStyled>Club</ClubStyled>;
 };
+export default Club;
