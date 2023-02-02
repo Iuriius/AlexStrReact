@@ -4,6 +4,8 @@ import { StyledLink } from './Header.styled';
 const Header = () => {
   return (
     <HeaderStyled>
+      <p>LOGO</p>
+
       <nav>
         <StyledLink to="/" end="true">
           Homepage
