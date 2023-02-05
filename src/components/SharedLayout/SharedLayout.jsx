@@ -6,13 +6,17 @@ import Footer from '../../components/Footer/Footer';
 
 const SharedLayout = () => {
   return (
-    <SharedLayoutStyled>
-      <Header />
-      <Suspense fallback={<div>Loading...</div>}>
-        <Outlet />
-      </Suspense>
-      <Footer />
-    </SharedLayoutStyled>
+    <>
+      <SharedLayoutStyled>
+        <Header />
+        <Suspense fallback={<div>Loading...</div>}>
+          <Outlet />
+        </Suspense>
+        <Footer />
+      </SharedLayoutStyled>
+    </>
   );
 };
 export default SharedLayout;
+
+// <Footer />;
