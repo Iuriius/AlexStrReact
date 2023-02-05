@@ -14,7 +14,7 @@ const Articles = lazy(() => import('./pages/Articles/Articles'));
 const Biography = lazy(() => import('./pages/Biography/Biography'));
 const NotFound = lazy(() => import('./components/NotFound/NotFound'));
 
-const App = () => {
+export const App = () => {
   return (
     <Routes>
       <Route path="/" element={<SharedLayout />}>
@@ -31,4 +31,3 @@ const App = () => {
     </Routes>
   );
 };
-export default App;

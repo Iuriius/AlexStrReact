@@ -1,11 +1,12 @@
 import { FooterStyled } from './Footer.styled';
+import { Socials } from '../Socials/Socials';
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <FooterStyled>
+      <Socials />
       Сopyright © 2023 Олексій Страшний - персональна сторінка. Всі права
       захищені.
     </FooterStyled>
   );
 };
-export default Footer;

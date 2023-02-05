@@ -1,7 +1,7 @@
 import { HeaderStyled } from './Header.styled';
 import { StyledLink } from './Header.styled';
 
-const Header = () => {
+export const Header = () => {
   return (
     <HeaderStyled>
       <nav>
@@ -19,4 +19,3 @@ const Header = () => {
     </HeaderStyled>
   );
 };
-export default Header;
