@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_template=self.webpackChunkreact_template||[]).push([[875],{875:function(n,e,t){t.r(e),t.d(e,{default:function(){return d}});var i,r=t(168),a=t(934).Z.div(i||(i=(0,r.Z)(["\n  text-align: center;\n  @media screen and (min-width: 768px) {\n  }\n  @media screen and (min-width: 1200px) {\n  }\n"]))),c=t(184),d=function(){return(0,c.jsx)(a,{children:(0,c.jsx)("p",{children:"TEST"})})}}}]);
+//# sourceMappingURL=875.b53df379.chunk.js.map
