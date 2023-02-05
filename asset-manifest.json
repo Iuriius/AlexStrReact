@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/AlexStrReact/static/css/main.6749dab8.css",
-    "main.js": "/AlexStrReact/static/js/main.ef231ed8.js",
+    "main.js": "/AlexStrReact/static/js/main.2bd0fc08.js",
     "static/js/670.72e6bbca.chunk.js": "/AlexStrReact/static/js/670.72e6bbca.chunk.js",
     "static/js/623.88a04652.chunk.js": "/AlexStrReact/static/js/623.88a04652.chunk.js",
-    "static/js/875.75f972e7.chunk.js": "/AlexStrReact/static/js/875.75f972e7.chunk.js",
+    "static/js/875.c5e69ce4.chunk.js": "/AlexStrReact/static/js/875.c5e69ce4.chunk.js",
     "static/js/15.0d8f248d.chunk.js": "/AlexStrReact/static/js/15.0d8f248d.chunk.js",
     "static/js/460.e39c1e60.chunk.js": "/AlexStrReact/static/js/460.e39c1e60.chunk.js",
     "static/js/808.ce1732a0.chunk.js": "/AlexStrReact/static/js/808.ce1732a0.chunk.js",
@@ -16,10 +16,10 @@
     "static/js/511.77769aa4.chunk.js": "/AlexStrReact/static/js/511.77769aa4.chunk.js",
     "index.html": "/AlexStrReact/index.html",
     "main.6749dab8.css.map": "/AlexStrReact/static/css/main.6749dab8.css.map",
-    "main.ef231ed8.js.map": "/AlexStrReact/static/js/main.ef231ed8.js.map",
+    "main.2bd0fc08.js.map": "/AlexStrReact/static/js/main.2bd0fc08.js.map",
     "670.72e6bbca.chunk.js.map": "/AlexStrReact/static/js/670.72e6bbca.chunk.js.map",
     "623.88a04652.chunk.js.map": "/AlexStrReact/static/js/623.88a04652.chunk.js.map",
-    "875.75f972e7.chunk.js.map": "/AlexStrReact/static/js/875.75f972e7.chunk.js.map",
+    "875.c5e69ce4.chunk.js.map": "/AlexStrReact/static/js/875.c5e69ce4.chunk.js.map",
     "15.0d8f248d.chunk.js.map": "/AlexStrReact/static/js/15.0d8f248d.chunk.js.map",
     "460.e39c1e60.chunk.js.map": "/AlexStrReact/static/js/460.e39c1e60.chunk.js.map",
     "808.ce1732a0.chunk.js.map": "/AlexStrReact/static/js/808.ce1732a0.chunk.js.map",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.6749dab8.css",
-    "static/js/main.ef231ed8.js"
+    "static/js/main.2bd0fc08.js"
   ]
 }
