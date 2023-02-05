@@ -1,6 +1,10 @@
 import { HomepageStyled } from './Homepage.styled';
 
 const Homepage = () => {
-  return <HomepageStyled></HomepageStyled>;
+  return (
+    <HomepageStyled>
+      <p>TEST</p>
+    </HomepageStyled>
+  );
 };
 export default Homepage;
