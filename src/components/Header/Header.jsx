@@ -8,13 +8,13 @@ const Header = () => {
         <StyledLink to="/" end="true">
           Homepage
         </StyledLink>
-        <StyledLink to="/fishtogether">xxx</StyledLink>
-        <StyledLink to="/seminar">xxx</StyledLink>
-        <StyledLink to="/mountains">xxx</StyledLink>
-        <StyledLink to="/orderbait">xxx</StyledLink>
-        <StyledLink to="/club">xxx</StyledLink>
-        <StyledLink to="/articles">xxx</StyledLink>
-        <StyledLink to="/biography">xxx</StyledLink>
+        <StyledLink to="/fishtogether">Зареєструватися на риболовлю</StyledLink>
+        <StyledLink to="/seminar">Замовити семінар</StyledLink>
+        <StyledLink to="/mountains">Гори гайд</StyledLink>
+        <StyledLink to="/orderbait">Замовити наживку</StyledLink>
+        <StyledLink to="/club">НХНЛ клуб</StyledLink>
+        <StyledLink to="/articles">Статті</StyledLink>
+        <StyledLink to="/biography">Біографія</StyledLink>
       </nav>
     </HeaderStyled>
   );
