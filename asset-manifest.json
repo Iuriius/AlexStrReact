@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AlexStrReact/static/css/main.96132b26.css",
-    "main.js": "/AlexStrReact/static/js/main.3547a2b2.js",
-    "static/js/670.441b6ffa.chunk.js": "/AlexStrReact/static/js/670.441b6ffa.chunk.js",
+    "main.js": "/AlexStrReact/static/js/main.6fc1c852.js",
+    "static/js/579.5895d41b.chunk.js": "/AlexStrReact/static/js/579.5895d41b.chunk.js",
     "static/js/875.b53df379.chunk.js": "/AlexStrReact/static/js/875.b53df379.chunk.js",
     "static/js/15.98551ba1.chunk.js": "/AlexStrReact/static/js/15.98551ba1.chunk.js",
     "static/js/460.4962a154.chunk.js": "/AlexStrReact/static/js/460.4962a154.chunk.js",
@@ -13,10 +13,11 @@
     "static/js/89.7893fc09.chunk.js": "/AlexStrReact/static/js/89.7893fc09.chunk.js",
     "static/js/62.4208e840.chunk.js": "/AlexStrReact/static/js/62.4208e840.chunk.js",
     "static/js/511.b1c70573.chunk.js": "/AlexStrReact/static/js/511.b1c70573.chunk.js",
+    "static/js/135.6a3e7c73.chunk.js": "/AlexStrReact/static/js/135.6a3e7c73.chunk.js",
     "index.html": "/AlexStrReact/index.html",
     "main.96132b26.css.map": "/AlexStrReact/static/css/main.96132b26.css.map",
-    "main.3547a2b2.js.map": "/AlexStrReact/static/js/main.3547a2b2.js.map",
-    "670.441b6ffa.chunk.js.map": "/AlexStrReact/static/js/670.441b6ffa.chunk.js.map",
+    "main.6fc1c852.js.map": "/AlexStrReact/static/js/main.6fc1c852.js.map",
+    "579.5895d41b.chunk.js.map": "/AlexStrReact/static/js/579.5895d41b.chunk.js.map",
     "875.b53df379.chunk.js.map": "/AlexStrReact/static/js/875.b53df379.chunk.js.map",
     "15.98551ba1.chunk.js.map": "/AlexStrReact/static/js/15.98551ba1.chunk.js.map",
     "460.4962a154.chunk.js.map": "/AlexStrReact/static/js/460.4962a154.chunk.js.map",
@@ -26,10 +27,11 @@
     "942.ca0a31d3.chunk.js.map": "/AlexStrReact/static/js/942.ca0a31d3.chunk.js.map",
     "89.7893fc09.chunk.js.map": "/AlexStrReact/static/js/89.7893fc09.chunk.js.map",
     "62.4208e840.chunk.js.map": "/AlexStrReact/static/js/62.4208e840.chunk.js.map",
-    "511.b1c70573.chunk.js.map": "/AlexStrReact/static/js/511.b1c70573.chunk.js.map"
+    "511.b1c70573.chunk.js.map": "/AlexStrReact/static/js/511.b1c70573.chunk.js.map",
+    "135.6a3e7c73.chunk.js.map": "/AlexStrReact/static/js/135.6a3e7c73.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96132b26.css",
-    "static/js/main.3547a2b2.js"
+    "static/js/main.6fc1c852.js"
   ]
 }
