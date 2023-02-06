@@ -13,6 +13,11 @@ code {
     monospace;
 }
 
+/*
+/**|======================================
+/**| Decorated Links for Socials
+/**|======================================
+*/
 .decoratedLink {
   color: inherit;
   transition: color 150ms ease-in-out;
@@ -21,4 +26,14 @@ code {
 .decoratedLink:hover {
   color: red;
 
+}
+
+/*
+/**|======================================
+/**| Hero Slider
+/**|======================================
+*/
+.hero-slider-overlay {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.15);
 }

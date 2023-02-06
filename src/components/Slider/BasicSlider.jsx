@@ -1,17 +1,16 @@
-import HeroSlider, { Overlay, Slide, MenuNav } from 'hero-slider';
-import Wrapper from './Wrapper';
-import Title from './Title';
-import Subtitle from './Subtitle';
-
-const bogliasco = 'https://i.imgur.com/Gu5Cznz.jpg';
-const countyClare = 'https://i.imgur.com/idjXzVQ.jpg';
-const craterRock = 'https://i.imgur.com/8DYumaY.jpg';
-const giauPass = 'https://i.imgur.com/8IuucQZ.jpg';
+import HeroSlider, { Slide, Nav } from 'hero-slider';
+import slide1 from './SliderPics/slide1.jpg';
+import slide2 from './SliderPics/slide2.jpg';
+import slide3 from './SliderPics/slide3.jpg';
+import slide4 from './SliderPics/slide4.jpg';
+import slide5 from './SliderPics/slide5.jpg';
+import slide6 from './SliderPics/slide6.jpg';
+import slide7 from './SliderPics/slide7.jpg';
 
 export const BasicSlider = () => {
   return (
     <HeroSlider
-      height={'100vh'}
+      height={'60vh'}
       autoplay
       controller={{
         initialSlide: 1,
@@ -29,48 +28,48 @@ export const BasicSlider = () => {
           console.debug('onAfterSliding(nextSlide): ', nextSlide),
       }}
     >
-      <Overlay>
-        <Wrapper>
-          <Title>Basic Setup</Title>
-          <Subtitle>
-            Check out the documentation for more advanced examples.
-          </Subtitle>
-        </Wrapper>
-      </Overlay>
-
       <Slide
-        shouldRenderMask
-        label="Giau Pass - Italy"
         background={{
-          backgroundImageSrc: giauPass,
+          backgroundImageSrc: slide1,
         }}
       />
 
       <Slide
-        shouldRenderMask
-        label="Bogliasco - Italy"
         background={{
-          backgroundImageSrc: bogliasco,
+          backgroundImageSrc: slide2,
         }}
       />
 
       <Slide
-        shouldRenderMask
-        label="County Clare - Ireland"
         background={{
-          backgroundImageSrc: countyClare,
+          backgroundImageSrc: slide3,
         }}
       />
 
       <Slide
-        shouldRenderMask
-        label="Crater Rock, OR - United States"
         background={{
-          backgroundImageSrc: craterRock,
+          backgroundImageSrc: slide4,
         }}
       />
 
-      <MenuNav />
+      <Slide
+        background={{
+          backgroundImageSrc: slide5,
+        }}
+      />
+
+      <Slide
+        background={{
+          backgroundImageSrc: slide6,
+        }}
+      />
+
+      <Slide
+        background={{
+          backgroundImageSrc: slide7,
+        }}
+      />
+      <Nav />
     </HeroSlider>
   );
 };
