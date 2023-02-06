@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/AlexStrReact/static/css/main.8031dd9d.css",
-    "main.js": "/AlexStrReact/static/js/main.9ad72f0b.js",
+    "main.js": "/AlexStrReact/static/js/main.04c39bf3.js",
     "static/js/579.757f3cc6.chunk.js": "/AlexStrReact/static/js/579.757f3cc6.chunk.js",
-    "static/js/875.00c0a517.chunk.js": "/AlexStrReact/static/js/875.00c0a517.chunk.js",
+    "static/css/145.f3cc7a99.chunk.css": "/AlexStrReact/static/css/145.f3cc7a99.chunk.css",
+    "static/js/145.3db6c779.chunk.js": "/AlexStrReact/static/js/145.3db6c779.chunk.js",
     "static/js/15.a1a3c704.chunk.js": "/AlexStrReact/static/js/15.a1a3c704.chunk.js",
     "static/js/460.0267548b.chunk.js": "/AlexStrReact/static/js/460.0267548b.chunk.js",
     "static/js/808.109c16e2.chunk.js": "/AlexStrReact/static/js/808.109c16e2.chunk.js",
@@ -13,12 +14,14 @@
     "static/js/89.5aed2bf5.chunk.js": "/AlexStrReact/static/js/89.5aed2bf5.chunk.js",
     "static/js/62.26ae4dd1.chunk.js": "/AlexStrReact/static/js/62.26ae4dd1.chunk.js",
     "static/js/511.b1c70573.chunk.js": "/AlexStrReact/static/js/511.b1c70573.chunk.js",
+    "static/js/771.f085c158.chunk.js": "/AlexStrReact/static/js/771.f085c158.chunk.js",
     "static/js/135.6a3e7c73.chunk.js": "/AlexStrReact/static/js/135.6a3e7c73.chunk.js",
     "index.html": "/AlexStrReact/index.html",
     "main.8031dd9d.css.map": "/AlexStrReact/static/css/main.8031dd9d.css.map",
-    "main.9ad72f0b.js.map": "/AlexStrReact/static/js/main.9ad72f0b.js.map",
+    "main.04c39bf3.js.map": "/AlexStrReact/static/js/main.04c39bf3.js.map",
     "579.757f3cc6.chunk.js.map": "/AlexStrReact/static/js/579.757f3cc6.chunk.js.map",
-    "875.00c0a517.chunk.js.map": "/AlexStrReact/static/js/875.00c0a517.chunk.js.map",
+    "145.f3cc7a99.chunk.css.map": "/AlexStrReact/static/css/145.f3cc7a99.chunk.css.map",
+    "145.3db6c779.chunk.js.map": "/AlexStrReact/static/js/145.3db6c779.chunk.js.map",
     "15.a1a3c704.chunk.js.map": "/AlexStrReact/static/js/15.a1a3c704.chunk.js.map",
     "460.0267548b.chunk.js.map": "/AlexStrReact/static/js/460.0267548b.chunk.js.map",
     "808.109c16e2.chunk.js.map": "/AlexStrReact/static/js/808.109c16e2.chunk.js.map",
@@ -28,10 +31,11 @@
     "89.5aed2bf5.chunk.js.map": "/AlexStrReact/static/js/89.5aed2bf5.chunk.js.map",
     "62.26ae4dd1.chunk.js.map": "/AlexStrReact/static/js/62.26ae4dd1.chunk.js.map",
     "511.b1c70573.chunk.js.map": "/AlexStrReact/static/js/511.b1c70573.chunk.js.map",
+    "771.f085c158.chunk.js.map": "/AlexStrReact/static/js/771.f085c158.chunk.js.map",
     "135.6a3e7c73.chunk.js.map": "/AlexStrReact/static/js/135.6a3e7c73.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8031dd9d.css",
-    "static/js/main.9ad72f0b.js"
+    "static/js/main.04c39bf3.js"
   ]
 }
