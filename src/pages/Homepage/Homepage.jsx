@@ -1,9 +1,10 @@
 import { HomepageStyled } from './Homepage.styled';
+import { BasicSlider } from '../../components/Slider/BasicSlider';
 
 const Homepage = () => {
   return (
     <HomepageStyled>
-      <p>TEST</p>
+      <BasicSlider />
     </HomepageStyled>
   );
 };
