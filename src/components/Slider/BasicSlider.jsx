@@ -16,7 +16,7 @@ export const BasicSlider = () => {
       controller={{
         initialSlide: 1,
         slidingDuration: 500,
-        slidingDelay: 100,
+        slidingDelay: 0,
         onSliding: nextSlide =>
           console.debug('onSliding(nextSlide): ', nextSlide),
         onBeforeSliding: (previousSlide, nextSlide) =>
@@ -29,7 +29,7 @@ export const BasicSlider = () => {
           console.debug('onAfterSliding(nextSlide): ', nextSlide),
       }}
     >
-      <Link to="https://www.youtube.com/@strashnaya_ribalka/featured">
+      <Link to="/fishtogether">
         <Slide
           background={{
             backgroundImageSrc: slide1,
@@ -37,7 +37,7 @@ export const BasicSlider = () => {
         />
       </Link>
 
-      <Link to="https://www.youtube.com/@strashnaya_ribalka/featured">
+      <Link to="/fishtogether">
         <Slide
           background={{
             backgroundImageSrc: slide2,
@@ -45,7 +45,7 @@ export const BasicSlider = () => {
         />
       </Link>
 
-      <Link to="https://www.youtube.com/@strashnaya_ribalka/featured">
+      <Link to="/seminar">
         <Slide
           background={{
             backgroundImageSrc: slide3,
@@ -53,7 +53,7 @@ export const BasicSlider = () => {
         />
       </Link>
 
-      <Link to="https://www.youtube.com/@strashnaya_ribalka/featured">
+      <Link to="/mountains">
         <Slide
           background={{
             backgroundImageSrc: slide4,
@@ -69,7 +69,7 @@ export const BasicSlider = () => {
         />
       </Link>
 
-      <Link to="https://www.youtube.com/@strashnaya_ribalka/featured">
+      <Link to="https://нхнч.com/Home/BaitOrder">
         <Slide
           background={{
             backgroundImageSrc: slide6,
@@ -77,7 +77,7 @@ export const BasicSlider = () => {
         />
       </Link>
 
-      <Link to="https://www.youtube.com/@strashnaya_ribalka/featured">
+      <Link to="https://xn--m1aaxj.com/Home/Club">
         <Slide
           background={{
             backgroundImageSrc: slide7,

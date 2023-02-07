@@ -1,12 +1,14 @@
 import { HeaderStyled } from './Header.styled';
 import { StyledLink } from './Header.styled';
+import Logo from '../../pictures/png/Logo-512x288.png';
 
 export const Header = () => {
   return (
     <HeaderStyled>
-      <nav>
+      <img src={Logo} alt="logo" width="128px" />
+      <nav className="navigation">
         <StyledLink to="/" end="true">
-          Homepage
+          Головна
         </StyledLink>
         <StyledLink to="/fishtogether">Зареєструватися на риболовлю</StyledLink>
         <StyledLink to="/seminar">Замовити семінар</StyledLink>
