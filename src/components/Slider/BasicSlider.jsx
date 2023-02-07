@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom';
 export const BasicSlider = () => {
   return (
     <HeroSlider
+      className="slider"
       height={'60vh'}
       autoplay
       controller={{

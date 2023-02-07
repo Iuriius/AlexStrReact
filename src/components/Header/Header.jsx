@@ -1,11 +1,15 @@
 import { HeaderStyled } from './Header.styled';
 import { StyledLink } from './Header.styled';
+import { Link } from 'react-router-dom';
 import Logo from '../../pictures/png/Logo-512x288.png';
+import Flag from '../../pictures/flags/ukr.png';
 
 export const Header = () => {
   return (
     <HeaderStyled>
-      <img src={Logo} alt="logo" width="128px" />
+      <Link to="/">
+        <img src={Logo} alt="logo" width="128px" />
+      </Link>
       <nav className="navigation">
         <StyledLink to="/" end="true">
           Головна
@@ -18,6 +22,13 @@ export const Header = () => {
         <StyledLink to="/articles">Статті</StyledLink>
         <StyledLink to="/biography">Біографія</StyledLink>
       </nav>
+      <img
+        className="language"
+        src={Flag}
+        alt="logo"
+        width="20px"
+        title="Українська"
+      />
     </HeaderStyled>
   );
 };

@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;800;900&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: aliceblue;
@@ -24,7 +24,7 @@ code {
 }
 
 .decoratedLink:hover {
-  color: red;
+  color: orangered;
 
 }
 
@@ -36,4 +36,14 @@ code {
 .hero-slider-overlay {
   color: white;
   background-color: rgba(0, 0, 0, 0.15);
+}
+
+.slider {
+  margin-bottom: 1rem;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.language:hover,
+.language:focus {
+  transform: scale(1.5);
 }
