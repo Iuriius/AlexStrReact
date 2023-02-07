@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/AlexStrReact/static/css/main.8aa3bdfd.css",
-    "main.js": "/AlexStrReact/static/js/main.19509f00.js",
-    "static/js/579.e4a952b5.chunk.js": "/AlexStrReact/static/js/579.e4a952b5.chunk.js",
-    "static/js/718.51810098.chunk.js": "/AlexStrReact/static/js/718.51810098.chunk.js",
+    "main.js": "/AlexStrReact/static/js/main.7c5b88c0.js",
+    "static/js/579.551ccf66.chunk.js": "/AlexStrReact/static/js/579.551ccf66.chunk.js",
+    "static/js/718.52a8c910.chunk.js": "/AlexStrReact/static/js/718.52a8c910.chunk.js",
     "static/js/15.b68d0d8d.chunk.js": "/AlexStrReact/static/js/15.b68d0d8d.chunk.js",
     "static/js/460.6d0a624b.chunk.js": "/AlexStrReact/static/js/460.6d0a624b.chunk.js",
     "static/js/808.beb4e17c.chunk.js": "/AlexStrReact/static/js/808.beb4e17c.chunk.js",
@@ -22,11 +22,12 @@
     "static/media/slide4.jpg": "/AlexStrReact/static/media/slide4.b516ea7ba1e81fff4700.jpg",
     "static/media/slide6.jpg": "/AlexStrReact/static/media/slide6.87f903a8c388fad5101c.jpg",
     "static/media/slide1.jpg": "/AlexStrReact/static/media/slide1.bb4679fcf415e630b106.jpg",
+    "static/media/Logo-512x288.png": "/AlexStrReact/static/media/Logo-512x288.0539b256fb0162db4b52.png",
     "index.html": "/AlexStrReact/index.html",
     "main.8aa3bdfd.css.map": "/AlexStrReact/static/css/main.8aa3bdfd.css.map",
-    "main.19509f00.js.map": "/AlexStrReact/static/js/main.19509f00.js.map",
-    "579.e4a952b5.chunk.js.map": "/AlexStrReact/static/js/579.e4a952b5.chunk.js.map",
-    "718.51810098.chunk.js.map": "/AlexStrReact/static/js/718.51810098.chunk.js.map",
+    "main.7c5b88c0.js.map": "/AlexStrReact/static/js/main.7c5b88c0.js.map",
+    "579.551ccf66.chunk.js.map": "/AlexStrReact/static/js/579.551ccf66.chunk.js.map",
+    "718.52a8c910.chunk.js.map": "/AlexStrReact/static/js/718.52a8c910.chunk.js.map",
     "15.b68d0d8d.chunk.js.map": "/AlexStrReact/static/js/15.b68d0d8d.chunk.js.map",
     "460.6d0a624b.chunk.js.map": "/AlexStrReact/static/js/460.6d0a624b.chunk.js.map",
     "808.beb4e17c.chunk.js.map": "/AlexStrReact/static/js/808.beb4e17c.chunk.js.map",
@@ -41,6 +42,6 @@
   },
   "entrypoints": [
     "static/css/main.8aa3bdfd.css",
-    "static/js/main.19509f00.js"
+    "static/js/main.7c5b88c0.js"
   ]
 }
