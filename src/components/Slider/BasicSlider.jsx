@@ -6,6 +6,7 @@ import slide4 from './SliderPics/slide4.jpg';
 import slide5 from './SliderPics/slide5.jpg';
 import slide6 from './SliderPics/slide6.jpg';
 import slide7 from './SliderPics/slide7.jpg';
+import { Link } from 'react-router-dom';
 
 export const BasicSlider = () => {
   return (
@@ -28,47 +29,62 @@ export const BasicSlider = () => {
           console.debug('onAfterSliding(nextSlide): ', nextSlide),
       }}
     >
-      <Slide
-        background={{
-          backgroundImageSrc: slide1,
-        }}
-      />
+      <Link to="https://www.youtube.com/@strashnaya_ribalka/featured">
+        <Slide
+          background={{
+            backgroundImageSrc: slide1,
+          }}
+        />
+      </Link>
 
-      <Slide
-        background={{
-          backgroundImageSrc: slide2,
-        }}
-      />
+      <Link to="https://www.youtube.com/@strashnaya_ribalka/featured">
+        <Slide
+          background={{
+            backgroundImageSrc: slide2,
+          }}
+        />
+      </Link>
 
-      <Slide
-        background={{
-          backgroundImageSrc: slide3,
-        }}
-      />
+      <Link to="https://www.youtube.com/@strashnaya_ribalka/featured">
+        <Slide
+          background={{
+            backgroundImageSrc: slide3,
+          }}
+        />
+      </Link>
 
-      <Slide
-        background={{
-          backgroundImageSrc: slide4,
-        }}
-      />
+      <Link to="https://www.youtube.com/@strashnaya_ribalka/featured">
+        <Slide
+          background={{
+            backgroundImageSrc: slide4,
+          }}
+        />
+      </Link>
 
-      <Slide
-        background={{
-          backgroundImageSrc: slide5,
-        }}
-      />
+      <Link to="https://www.youtube.com/@strashnaya_ribalka/featured">
+        <Slide
+          background={{
+            backgroundImageSrc: slide5,
+          }}
+        />
+      </Link>
 
-      <Slide
-        background={{
-          backgroundImageSrc: slide6,
-        }}
-      />
+      <Link to="https://www.youtube.com/@strashnaya_ribalka/featured">
+        <Slide
+          background={{
+            backgroundImageSrc: slide6,
+          }}
+        />
+      </Link>
 
-      <Slide
-        background={{
-          backgroundImageSrc: slide7,
-        }}
-      />
+      <Link to="https://www.youtube.com/@strashnaya_ribalka/featured">
+        <Slide
+          background={{
+            backgroundImageSrc: slide7,
+          }}
+        />
+      </Link>
+
       <Nav />
     </HeroSlider>
   );
