@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/AlexStrReact/static/css/main.8aa3bdfd.css",
-    "main.js": "/AlexStrReact/static/js/main.f832d227.js",
+    "main.js": "/AlexStrReact/static/js/main.19509f00.js",
     "static/js/579.e4a952b5.chunk.js": "/AlexStrReact/static/js/579.e4a952b5.chunk.js",
-    "static/js/718.57b4ec65.chunk.js": "/AlexStrReact/static/js/718.57b4ec65.chunk.js",
+    "static/js/718.51810098.chunk.js": "/AlexStrReact/static/js/718.51810098.chunk.js",
     "static/js/15.b68d0d8d.chunk.js": "/AlexStrReact/static/js/15.b68d0d8d.chunk.js",
     "static/js/460.6d0a624b.chunk.js": "/AlexStrReact/static/js/460.6d0a624b.chunk.js",
     "static/js/808.beb4e17c.chunk.js": "/AlexStrReact/static/js/808.beb4e17c.chunk.js",
@@ -15,18 +15,18 @@
     "static/js/511.c4cacd97.chunk.js": "/AlexStrReact/static/js/511.c4cacd97.chunk.js",
     "static/js/771.fc9af96b.chunk.js": "/AlexStrReact/static/js/771.fc9af96b.chunk.js",
     "static/js/135.6e43324e.chunk.js": "/AlexStrReact/static/js/135.6e43324e.chunk.js",
-    "static/media/slide3.jpg": "/AlexStrReact/static/media/slide3.29fb4f0763998f52bab4.jpg",
-    "static/media/slide2.jpg": "/AlexStrReact/static/media/slide2.6c32ed5b3c22a1503d0e.jpg",
-    "static/media/slide1.jpg": "/AlexStrReact/static/media/slide1.78ad2ada1eccfcba160c.jpg",
-    "static/media/slide4.jpg": "/AlexStrReact/static/media/slide4.78ad2ada1eccfcba160c.jpg",
-    "static/media/slide5.jpg": "/AlexStrReact/static/media/slide5.78ad2ada1eccfcba160c.jpg",
-    "static/media/slide6.jpg": "/AlexStrReact/static/media/slide6.78ad2ada1eccfcba160c.jpg",
-    "static/media/slide7.jpg": "/AlexStrReact/static/media/slide7.78ad2ada1eccfcba160c.jpg",
+    "static/media/slide3.jpg": "/AlexStrReact/static/media/slide3.ba56befd78f20e423b96.jpg",
+    "static/media/slide7.jpg": "/AlexStrReact/static/media/slide7.f6e6d56d7c9c5fd2481b.jpg",
+    "static/media/slide5.jpg": "/AlexStrReact/static/media/slide5.1314d1eb5ee895b964b7.jpg",
+    "static/media/slide2.jpg": "/AlexStrReact/static/media/slide2.faf52f59803635c204ae.jpg",
+    "static/media/slide4.jpg": "/AlexStrReact/static/media/slide4.b516ea7ba1e81fff4700.jpg",
+    "static/media/slide6.jpg": "/AlexStrReact/static/media/slide6.87f903a8c388fad5101c.jpg",
+    "static/media/slide1.jpg": "/AlexStrReact/static/media/slide1.bb4679fcf415e630b106.jpg",
     "index.html": "/AlexStrReact/index.html",
     "main.8aa3bdfd.css.map": "/AlexStrReact/static/css/main.8aa3bdfd.css.map",
-    "main.f832d227.js.map": "/AlexStrReact/static/js/main.f832d227.js.map",
+    "main.19509f00.js.map": "/AlexStrReact/static/js/main.19509f00.js.map",
     "579.e4a952b5.chunk.js.map": "/AlexStrReact/static/js/579.e4a952b5.chunk.js.map",
-    "718.57b4ec65.chunk.js.map": "/AlexStrReact/static/js/718.57b4ec65.chunk.js.map",
+    "718.51810098.chunk.js.map": "/AlexStrReact/static/js/718.51810098.chunk.js.map",
     "15.b68d0d8d.chunk.js.map": "/AlexStrReact/static/js/15.b68d0d8d.chunk.js.map",
     "460.6d0a624b.chunk.js.map": "/AlexStrReact/static/js/460.6d0a624b.chunk.js.map",
     "808.beb4e17c.chunk.js.map": "/AlexStrReact/static/js/808.beb4e17c.chunk.js.map",
@@ -41,6 +41,6 @@
   },
   "entrypoints": [
     "static/css/main.8aa3bdfd.css",
-    "static/js/main.f832d227.js"
+    "static/js/main.19509f00.js"
   ]
 }
