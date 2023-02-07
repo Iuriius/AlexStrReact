@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/AlexStrReact/static/css/main.8aa3bdfd.css",
-    "main.js": "/AlexStrReact/static/js/main.7c5b88c0.js",
-    "static/js/579.551ccf66.chunk.js": "/AlexStrReact/static/js/579.551ccf66.chunk.js",
-    "static/js/718.52a8c910.chunk.js": "/AlexStrReact/static/js/718.52a8c910.chunk.js",
+    "main.css": "/AlexStrReact/static/css/main.ac8720fc.css",
+    "main.js": "/AlexStrReact/static/js/main.83897314.js",
+    "static/js/579.22962141.chunk.js": "/AlexStrReact/static/js/579.22962141.chunk.js",
+    "static/js/718.0e397e88.chunk.js": "/AlexStrReact/static/js/718.0e397e88.chunk.js",
     "static/js/15.b68d0d8d.chunk.js": "/AlexStrReact/static/js/15.b68d0d8d.chunk.js",
     "static/js/460.6d0a624b.chunk.js": "/AlexStrReact/static/js/460.6d0a624b.chunk.js",
     "static/js/808.beb4e17c.chunk.js": "/AlexStrReact/static/js/808.beb4e17c.chunk.js",
@@ -24,10 +24,10 @@
     "static/media/slide1.jpg": "/AlexStrReact/static/media/slide1.bb4679fcf415e630b106.jpg",
     "static/media/Logo-512x288.png": "/AlexStrReact/static/media/Logo-512x288.0539b256fb0162db4b52.png",
     "index.html": "/AlexStrReact/index.html",
-    "main.8aa3bdfd.css.map": "/AlexStrReact/static/css/main.8aa3bdfd.css.map",
-    "main.7c5b88c0.js.map": "/AlexStrReact/static/js/main.7c5b88c0.js.map",
-    "579.551ccf66.chunk.js.map": "/AlexStrReact/static/js/579.551ccf66.chunk.js.map",
-    "718.52a8c910.chunk.js.map": "/AlexStrReact/static/js/718.52a8c910.chunk.js.map",
+    "main.ac8720fc.css.map": "/AlexStrReact/static/css/main.ac8720fc.css.map",
+    "main.83897314.js.map": "/AlexStrReact/static/js/main.83897314.js.map",
+    "579.22962141.chunk.js.map": "/AlexStrReact/static/js/579.22962141.chunk.js.map",
+    "718.0e397e88.chunk.js.map": "/AlexStrReact/static/js/718.0e397e88.chunk.js.map",
     "15.b68d0d8d.chunk.js.map": "/AlexStrReact/static/js/15.b68d0d8d.chunk.js.map",
     "460.6d0a624b.chunk.js.map": "/AlexStrReact/static/js/460.6d0a624b.chunk.js.map",
     "808.beb4e17c.chunk.js.map": "/AlexStrReact/static/js/808.beb4e17c.chunk.js.map",
@@ -41,7 +41,7 @@
     "135.6e43324e.chunk.js.map": "/AlexStrReact/static/js/135.6e43324e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8aa3bdfd.css",
-    "static/js/main.7c5b88c0.js"
+    "static/css/main.ac8720fc.css",
+    "static/js/main.83897314.js"
   ]
 }
