@@ -3,6 +3,7 @@ import { StyledLink } from './Header.styled';
 import { Link } from 'react-router-dom';
 import Logo from '../../pictures/png/Logo-512x288.png';
 import Flag from '../../pictures/flags/ukr.png';
+import { Burger } from '../Mobmenu/Burger';
 
 export const Header = () => {
   return (
@@ -11,7 +12,7 @@ export const Header = () => {
         <img src={Logo} alt="logo" width="128px" />
       </Link>
       <nav className="navigation">
-        <StyledLink to="/" end="true">
+        <StyledLink to="/" end>
           Головна
         </StyledLink>
         <StyledLink to="/fishtogether">Зареєструватися на риболовлю</StyledLink>
@@ -29,6 +30,7 @@ export const Header = () => {
         width="20px"
         title="Українська"
       />
+      <Burger />
     </HeaderStyled>
   );
 };
