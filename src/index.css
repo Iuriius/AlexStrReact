@@ -90,7 +90,7 @@ code {
   width: 100vw;
   height: 100vh;
   right: 0;
-  transform: translate(50vw);
+  transform: translate(90vw);
 }
 
 @media screen and (min-width: 1300px) {
