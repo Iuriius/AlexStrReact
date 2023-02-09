@@ -79,12 +79,32 @@ code {
 /**|======================================
 */
 
-.MobmenuNavigation {
+.mobmenu {
   display: flex;
   flex-direction: column;
   position: absolute;
+  top: 5rem;
   z-index: 5;
-  background-color: darkslateblue;
+  background-color: rgb(0, 40, 80);
+  padding: 3rem;
+  width: 100vw;
+  height: 100vh;
+  right: 0;
+  transform: translate(50vw);
+}
 
+@media screen and (min-width: 1300px) {
+  .mobmenu {
+    display: none;
+  }
+}
 
+.burger {
+  display: block;
+}
+
+@media screen and (min-width: 1300px) {
+  .burger {
+    display: none;
+  }
 }
