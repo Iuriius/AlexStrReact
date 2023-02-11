@@ -6,15 +6,16 @@ import Flag from '../../pictures/flags/ukr.png';
 import { Spin as Hamburger } from 'hamburger-react';
 import { Mobmenu } from '../Mobmenu/Mobmenu';
 
-// console.log(Mobmenu());
-function Open() {
-  Mobmenu.style.transform = 'translate(0vw)';
-}
-function Close() {
-  Mobmenu.style.transform = 'translate(100vw)';
-}
-
 export const Header = () => {
+  function Open() {
+    document.getElementsByClassName('mobmenu')[0].style.transform =
+      'translate(0vw)';
+  }
+  function Close() {
+    document.getElementsByClassName('mobmenu')[0].style.transform =
+      'translate(100vw)';
+  }
+
   return (
     <>
       <HeaderStyled>

@@ -82,15 +82,17 @@ code {
 .mobmenu {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  top: 5rem;
+  position: fixed;
+  top: 4.7rem;
   z-index: 5;
   background-color: rgb(0, 40, 80);
   padding: 3rem;
   width: 100vw;
   height: 100vh;
   right: 0;
+  overflow: hidden;
   transform: translate(100vw);
+  transition: transform 300ms ease;
 }
 
 @media screen and (min-width: 1300px) {
