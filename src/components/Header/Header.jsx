@@ -11,6 +11,7 @@ export const Header = () => {
     document.getElementsByClassName('mobmenu')[0].style.transform =
       'translate(0vw)';
   }
+
   function Close() {
     document.getElementsByClassName('mobmenu')[0].style.transform =
       'translate(100vw)';
