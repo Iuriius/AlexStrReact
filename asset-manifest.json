@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AlexStrReact/static/css/main.965444af.css",
+    "main.css": "/AlexStrReact/static/css/main.5c674b56.css",
     "main.js": "/AlexStrReact/static/js/main.941ec2d1.js",
     "static/js/424.1a8bc3a6.chunk.js": "/AlexStrReact/static/js/424.1a8bc3a6.chunk.js",
     "static/js/718.d426330b.chunk.js": "/AlexStrReact/static/js/718.d426330b.chunk.js",
@@ -24,7 +24,7 @@
     "static/media/slide1.jpg": "/AlexStrReact/static/media/slide1.bb4679fcf415e630b106.jpg",
     "static/media/Logo-512x288.png": "/AlexStrReact/static/media/Logo-512x288.0539b256fb0162db4b52.png",
     "index.html": "/AlexStrReact/index.html",
-    "main.965444af.css.map": "/AlexStrReact/static/css/main.965444af.css.map",
+    "main.5c674b56.css.map": "/AlexStrReact/static/css/main.5c674b56.css.map",
     "main.941ec2d1.js.map": "/AlexStrReact/static/js/main.941ec2d1.js.map",
     "424.1a8bc3a6.chunk.js.map": "/AlexStrReact/static/js/424.1a8bc3a6.chunk.js.map",
     "718.d426330b.chunk.js.map": "/AlexStrReact/static/js/718.d426330b.chunk.js.map",
@@ -41,7 +41,7 @@
     "877.4c37ed54.chunk.js.map": "/AlexStrReact/static/js/877.4c37ed54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.965444af.css",
+    "static/css/main.5c674b56.css",
     "static/js/main.941ec2d1.js"
   ]
 }
