@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/AlexStrReact/static/css/main.30013335.css",
-    "main.js": "/AlexStrReact/static/js/main.5c9da13f.js",
-    "static/js/424.654bc599.chunk.js": "/AlexStrReact/static/js/424.654bc599.chunk.js",
+    "main.css": "/AlexStrReact/static/css/main.4b2c3af9.css",
+    "main.js": "/AlexStrReact/static/js/main.f9d858d1.js",
+    "static/js/424.1a8bc3a6.chunk.js": "/AlexStrReact/static/js/424.1a8bc3a6.chunk.js",
     "static/js/718.ff3a128c.chunk.js": "/AlexStrReact/static/js/718.ff3a128c.chunk.js",
     "static/js/15.b68d0d8d.chunk.js": "/AlexStrReact/static/js/15.b68d0d8d.chunk.js",
     "static/js/460.6d0a624b.chunk.js": "/AlexStrReact/static/js/460.6d0a624b.chunk.js",
@@ -24,9 +24,9 @@
     "static/media/slide1.jpg": "/AlexStrReact/static/media/slide1.bb4679fcf415e630b106.jpg",
     "static/media/Logo-512x288.png": "/AlexStrReact/static/media/Logo-512x288.0539b256fb0162db4b52.png",
     "index.html": "/AlexStrReact/index.html",
-    "main.30013335.css.map": "/AlexStrReact/static/css/main.30013335.css.map",
-    "main.5c9da13f.js.map": "/AlexStrReact/static/js/main.5c9da13f.js.map",
-    "424.654bc599.chunk.js.map": "/AlexStrReact/static/js/424.654bc599.chunk.js.map",
+    "main.4b2c3af9.css.map": "/AlexStrReact/static/css/main.4b2c3af9.css.map",
+    "main.f9d858d1.js.map": "/AlexStrReact/static/js/main.f9d858d1.js.map",
+    "424.1a8bc3a6.chunk.js.map": "/AlexStrReact/static/js/424.1a8bc3a6.chunk.js.map",
     "718.ff3a128c.chunk.js.map": "/AlexStrReact/static/js/718.ff3a128c.chunk.js.map",
     "15.b68d0d8d.chunk.js.map": "/AlexStrReact/static/js/15.b68d0d8d.chunk.js.map",
     "460.6d0a624b.chunk.js.map": "/AlexStrReact/static/js/460.6d0a624b.chunk.js.map",
@@ -41,7 +41,7 @@
     "877.4c37ed54.chunk.js.map": "/AlexStrReact/static/js/877.4c37ed54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30013335.css",
-    "static/js/main.5c9da13f.js"
+    "static/css/main.4b2c3af9.css",
+    "static/js/main.f9d858d1.js"
   ]
 }
