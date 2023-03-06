@@ -15,9 +15,6 @@ export const Header = () => {
   };
 
   const [isOpen, setOpen] = useState(false);
-  // const toggle = () => {
-  //   setOpen(prev => !prev);
-  // };
 
   return (
     <>
