@@ -7,18 +7,9 @@ import { Spin as Hamburger } from 'hamburger-react';
 import { Mobmenu } from '../Mobmenu/Mobmenu';
 import React, { Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
+import { isActive, isClosed } from '../Mobmenu/Mobmenu';
 
 export const Header = () => {
-  function Open() {
-    document.getElementsByClassName('mobmenu')[0].style.transform =
-      'translate(0vw)';
-  }
-
-  function Close() {
-    document.getElementsByClassName('mobmenu')[0].style.transform =
-      'translate(100vw)';
-  }
-
   const { t, i18n } = useTranslation();
   const changeLanguage = lng => {
     i18n.changeLanguage(lng);
@@ -60,9 +51,9 @@ export const Header = () => {
               color="steelblue"
               onToggle={toggled => {
                 if (toggled) {
-                  Open();
+                  isActive();
                 } else {
-                  Close();
+                  isClosed();
                 }
               }}
             />
