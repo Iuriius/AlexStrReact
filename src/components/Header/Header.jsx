@@ -14,7 +14,7 @@ export const Header = () => {
     i18n.changeLanguage(lng);
   };
 
-  const [isOpen, setOpen] = useState(true);
+  const [isOpen, setOpen] = useState(false);
 
   return (
     <>
