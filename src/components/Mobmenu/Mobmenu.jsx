@@ -5,7 +5,7 @@ export const isActive = () => 'mobmenuActive';
 
 export const Mobmenu = () => {
   return (
-    <nav className={isClosed()}>
+    <nav className={isClosed() || isActive()}>
       <StyledLink to="/" end onClick={isClosed()}>
         Головна
       </StyledLink>
