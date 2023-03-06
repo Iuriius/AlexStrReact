@@ -10,7 +10,7 @@ export function isActive() {
 export const Mobmenu = () => {
   return (
     <nav className={isClosed()}>
-      <StyledLink to="/" end>
+      <StyledLink to="/" end onClick={isClosed()}>
         Головна
       </StyledLink>
       <StyledLink to="/fishtogether" onClick={isClosed()}>
