@@ -1,11 +1,7 @@
 import { StyledLink } from '../Header/Header.styled';
 
-export function isClosed() {
-  return 'mobmenu';
-}
-export function isActive() {
-  return 'mobmenuActive';
-}
+export const isClosed = () => 'mobmenu';
+export const isActive = () => 'mobmenuActive';
 
 export const Mobmenu = () => {
   return (
