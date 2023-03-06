@@ -5,15 +5,19 @@ import Logo from '../../pictures/png/Logo-512x288.png';
 import Flag from '../../pictures/flags/eng.png';
 import { Spin as Hamburger } from 'hamburger-react';
 import { Mobmenu } from '../Mobmenu/Mobmenu';
-import React, { Suspense } from 'react';
+import React, { Suspense, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { isActive, isClosed } from '../Mobmenu/Mobmenu';
 
 export const Header = () => {
   const { t, i18n } = useTranslation();
   const changeLanguage = lng => {
     i18n.changeLanguage(lng);
   };
+
+  const [isOpen, setOpen] = useState(false);
+  // const toggle = () => {
+  //   setOpen(prev => !prev);
+  // };
 
   return (
     <>
@@ -49,13 +53,8 @@ export const Header = () => {
               label="Show menu"
               size={20}
               color="steelblue"
-              onToggle={toggled => {
-                if (toggled) {
-                  isActive();
-                } else {
-                  isClosed();
-                }
-              }}
+              toggled={isOpen}
+              toggle={setOpen}
             />
           </div>
         </HeaderStyled>
