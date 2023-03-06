@@ -1,18 +1,32 @@
 import { StyledLink } from '../Header/Header.styled';
 
-export const Mobmenu = () => {
+export const Mobmenu = ({ isOpen, setOpen }) => {
   return (
-    <nav className={isOpen ? 'mobmenu' : 'mobmenuActive'}>
+    <nav className={isOpen ? 'mobmenuActive' : 'mobmenu'}>
       <StyledLink to="/" end>
         Головна
       </StyledLink>
-      <StyledLink to="/fishtogether">Зареєструватися на риболовлю</StyledLink>
-      <StyledLink to="/seminar">Замовити семінар</StyledLink>
-      <StyledLink to="/mountains">Гори гайд</StyledLink>
-      <StyledLink to="/orderbait">Замовити наживку</StyledLink>
-      <StyledLink to="/club">НХНЛ клуб</StyledLink>
-      <StyledLink to="/articles">Статті</StyledLink>
-      <StyledLink to="/biography">Біографія</StyledLink>
+      <StyledLink onClick={setOpen} to="/fishtogether">
+        Зареєструватися на риболовлю
+      </StyledLink>
+      <StyledLink onClick={setOpen} to="/seminar">
+        Замовити семінар
+      </StyledLink>
+      <StyledLink onClick={setOpen} to="/mountains">
+        Гори гайд
+      </StyledLink>
+      <StyledLink onClick={setOpen} to="/orderbait">
+        Замовити наживку
+      </StyledLink>
+      <StyledLink onClick={setOpen} to="/club">
+        НХНЛ клуб
+      </StyledLink>
+      <StyledLink onClick={setOpen} to="/articles">
+        Статті
+      </StyledLink>
+      <StyledLink onClick={setOpen} to="/biography">
+        Біографія
+      </StyledLink>
     </nav>
   );
 };

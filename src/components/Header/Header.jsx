@@ -55,7 +55,7 @@ export const Header = () => {
             />
           </div>
         </HeaderStyled>
-        <Mobmenu />
+        <Mobmenu isOpen={isOpen} setOpen={setOpen} />
       </Suspense>
     </>
   );
