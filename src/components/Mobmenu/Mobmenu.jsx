@@ -2,7 +2,7 @@ import { StyledLink } from '../Header/Header.styled';
 import { useTranslation } from 'react-i18next';
 
 export const Mobmenu = ({ isOpen, setOpen }) => {
-  const { t, i18n } = useTranslation('common');
+  const { t } = useTranslation('common');
 
   return (
     <nav className={isOpen ? 'mobmenuActive' : 'mobmenu'}>
