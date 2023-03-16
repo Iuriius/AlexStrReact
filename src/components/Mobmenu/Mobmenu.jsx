@@ -1,31 +1,34 @@
 import { StyledLink } from '../Header/Header.styled';
+import { useTranslation } from 'react-i18next';
 
 export const Mobmenu = ({ isOpen, setOpen }) => {
+  const { t, i18n } = useTranslation('common');
+
   return (
     <nav className={isOpen ? 'mobmenuActive' : 'mobmenu'}>
       <StyledLink to="/" end onClick={() => setOpen(false)}>
-        Головна
+        {t('Головна')}
       </StyledLink>
       <StyledLink to="/fishtogether" onClick={() => setOpen(false)}>
-        Зареєструватися на риболовлю
+        {t('Зареєструватися на риболовлю')}
       </StyledLink>
       <StyledLink to="/seminar" onClick={() => setOpen(false)}>
-        Замовити семінар
+        {t('Замовити семінар')}
       </StyledLink>
       <StyledLink to="/mountains" onClick={() => setOpen(false)}>
-        Гори гайд
+        {t('Гори гайд')}
       </StyledLink>
       <StyledLink to="/orderbait" onClick={() => setOpen(false)}>
-        Замовити наживку
+        {t('Замовити наживку')}
       </StyledLink>
       <StyledLink to="/club" onClick={() => setOpen(false)}>
-        НХНЛ клуб
+        {t('НХНЛ клуб')}
       </StyledLink>
       <StyledLink to="/articles" onClick={() => setOpen(false)}>
-        Статті
+        {t('Статті')}
       </StyledLink>
       <StyledLink to="/biography" onClick={() => setOpen(false)}>
-        Біографія
+        {t('Біографія')}
       </StyledLink>
     </nav>
   );

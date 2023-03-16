@@ -3,14 +3,14 @@ import { StyledLink } from './Header.styled';
 import { Link } from 'react-router-dom';
 import Logo from '../../pictures/png/Logo-512x288.png';
 import usFlag from '../../pictures/flags/eng.png';
-// import ukFlag from '../../pictures/flags/ukr.png';
+import ukFlag from '../../pictures/flags/ukr.png';
 import { Spin as Hamburger } from 'hamburger-react';
 import { Mobmenu } from '../Mobmenu/Mobmenu';
 import React, { Suspense, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 export const Header = () => {
-  const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation('common');
   const changeLanguage = lng => {
     i18n.changeLanguage(lng);
   };
@@ -38,14 +38,25 @@ export const Header = () => {
             <StyledLink to="/articles">{t('Статті')}</StyledLink>
             <StyledLink to="/biography">{t('Біографія')}</StyledLink>
           </nav>
-          <img
-            className="language"
-            src={usFlag}
-            alt="logo"
-            width="20px"
-            title="English"
-            onClick={() => changeLanguage('en')}
-          />
+          {i18n.language === 'uk' ? (
+            <img
+              className="language"
+              src={usFlag}
+              alt="logo"
+              width="20px"
+              title="English"
+              onClick={() => changeLanguage('en')}
+            />
+          ) : (
+            <img
+              className="language"
+              src={ukFlag}
+              alt="logo"
+              width="20px"
+              title="Українська"
+              onClick={() => changeLanguage('uk')}
+            />
+          )}
           <div className="burger">
             <Hamburger
               label="Show menu"
