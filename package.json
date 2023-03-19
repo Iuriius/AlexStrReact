@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://Iuriius.github.io/AlexStrReact/",
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@testing-library/jest-dom": "^5.16.3",
