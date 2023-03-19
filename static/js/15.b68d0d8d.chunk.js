@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkreact_template=self.webpackChunkreact_template||[]).push([[15],{8015:function(e,n,t){t.r(n),t.d(n,{default:function(){return d}});var i,r=t(168),a=t(4934).Z.div(i||(i=(0,r.Z)(["\n  text-align: center;\n  @media screen and (min-width: 768px) {\n  }\n  @media screen and (min-width: 1300px) {\n  }\n"]))),c=t(184),d=function(){return(0,c.jsx)(a,{children:"FishTogether"})}}}]);
-//# sourceMappingURL=15.b68d0d8d.chunk.js.map
