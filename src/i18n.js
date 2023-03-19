@@ -4,14 +4,21 @@ import { initReactI18next } from 'react-i18next';
 import uk from './locales/uk/translation.json';
 import en from './locales/en/translation.json';
 
-i18n.use(Backend).use(initReactI18next).init({
-  lng: 'uk',
-  fallbackLng: 'en',
-  debug: true,
-  resources: {
-    en,
-    uk,
-  },
-});
+i18n
+  .use(Backend)
+  .use(initReactI18next)
+  .init({
+    lng: 'uk',
+    fallbackLng: 'en',
+    debug: true,
+    resources: {
+      uk: {
+        common: uk,
+      },
+      en: {
+        common: en,
+      },
+    },
+  });
 
 export default i18n;
