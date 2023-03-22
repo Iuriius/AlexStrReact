@@ -15,7 +15,7 @@ export const Article = ({ date, previewImage, heading, content }) => {
       <button onClick={toggleContent}>
         {showContent ? 'Сховати статтю' : 'Відкрити статтю'}
       </button>
-      {showContent && <p>{content}</p>}
+      {showContent && <div dangerouslySetInnerHTML={{ __html: content }}></div>}
     </div>
   );
 };

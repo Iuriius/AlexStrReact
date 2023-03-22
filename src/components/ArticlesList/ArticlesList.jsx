@@ -18,7 +18,9 @@ export const ArticlesList = () => {
       previewImage: NxncImg,
       heading: 'Як створювався рибальський клуб НХНЛ.',
       content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolorLorem ipsum dolor sit amet, consectetur adipiscing elit. 
-      <img src=https://iuriius.github.io/strashnyi/nxnc.8e5decfd.jpg} alt="description of image" />
+
+     <img src="${NxncImg}" alt="My Image" />
+     
       Sed non risus.Suspendisse lectus tortor, dignissim sit met, adipiscing nec, ultricies sed, dolorLorem ipsum dolor sit amet, consectetur adipiscing elit.Sed non risus.Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolorLorem ipsum dolor sit amet, consectetur adipiscing elit.Sed non risus.Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolorLorem ipsum dolor sit amet, consectetur adipiscing elit.Sed non risus.Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolorLorem ipsum dolor sit amet, consectetur adipiscing elit.Sed non risus.Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolorLorem ipsum dolor sit amet, consectetur adipiscing elit.Sed non risus.Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor`,
     },
   ];
